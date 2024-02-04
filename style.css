@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Inconsolata&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+body{
+    background-color:rgb(7, 7, 66);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    /* /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Gentium Book Plus', serif; 
+    font-size: 25px;
+/* font-family: 'Inconsolata', monospace; */
+}
+/* navigation bar */
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color: white;
+    
+}
+h1{
+    font-family:  serif;
+    font-size:50px;
+    color:rgb(218, 144, 144);
+    /* text-shadow: 5px 5px 5px red; */
+    
+    font-family: 'kaushan script';
+  
+    
+}
+
+
+nav ul li{
+    padding: 0 10px;
+}
+/* logo size */
+.brand img{
+    width: 50px;
+    padding: 5px 6px;
+    border-radius: 40px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2.2rem;
+    color:rgb(218, 144, 144);
+    font-family:  serif;
+    font-family: 'kaushan script';
+
+
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+   /* font-family: 'Varela Round', sans-serif; */
+   font-family: 'Gentium Book Plus', serif; 
+   display: flex;
+   margin: 23px auto;
+   width: 90%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('image\ 3.jpg');
+   
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: rgb(216, 163, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    opacity:.6
+    
+    
+}
+
+.icons{
+    margin-top: 15px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 93vw; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 45px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: rgb(7, 1, 1);
+    
+    font-size: 23px;
+    color:rgb(216, 163, 163);
+     
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.songItem img{
+    width: 45px;
+    margin: 0 23px;
+    border-radius: 10px;
+}
+
+.timestamp{
+    margin: 0 19px;
+}
+
+.timestamp i{
+    cursor: pointer;
+
+}
+/* gif */
+.songInfo{
+    position: absolute;
+    left: 3vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color:black;
+    }
+  }
