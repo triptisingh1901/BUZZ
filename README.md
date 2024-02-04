@@ -16,7 +16,7 @@ The BUZZ project is a web-based music streaming application that allows users to
 
   
 ## Demo Link
-You can try the BUZZ Web application by visiting the ( https://github.com/triptisingh1901/BUZZ)
+You can try the BUZZ Web application by visiting the ( https://65bfc8065c84e58283045232--extraordinary-pithivier-c0cc19.netlify.app/)
 
 ## Installation
 
