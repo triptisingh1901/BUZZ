@@ -22,8 +22,8 @@ You can try the BUZZ Web application by visiting the ( https://github.com/tripti
 
 Follow these steps to set up and run the Spotify Clone project locally:
 
-1. Clone the repository: `git clone https://github.com/sneha-2603/BUZZ`
-2. Navigate to the project directory: https://github.com/sneha-2603/BUZZ
+1. Clone the repository: `git clone https://github.com/triptisingh1901/BUZZ`
+2. Navigate to the project directory: https://github.com/triptisingh1901/BUZZ
 3. Open `index.html` in your preferred web browser.
 
 ## Usage
